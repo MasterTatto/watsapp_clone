@@ -90,7 +90,7 @@ function UserProfile({ name, photoURL, email, lastMessage, timeStamp }) {
 			{chatMessages.length > 0 && <div className='unread_message'>{chatUserUnreadMessage.length}</div>}
 			<div className='user-image'>
 				<img src={photoURL} alt='' />
-				{chatUser.online && <div className='user-active' />}
+				{chatUser?.online && <div className='user-active' />}
 			</div>
 			{/* name of user */}
 			<div className='user-info'>

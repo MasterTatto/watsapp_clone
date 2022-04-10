@@ -138,8 +138,8 @@ function Chatcontainer({ currentUser, setUnreadMessages }) {
 						<img src={chatUser?.photoURL} alt='' />
 					</div> */}
 					<p>{chatUser?.fullname}</p>
-					{chatUser.online && <span>Active now</span>}
-					{chatUser.online && <div className='active' />}
+					{chatUser?.online && <span>Active now</span>}
+					{chatUser?.online && <div className='active' />}
 				</div>
 
 				<div className='chat-container-header-btn'>
