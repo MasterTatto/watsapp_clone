@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/watsapp_clone/static/css/main.ef7f4128.chunk.css",
-    "main.js": "/watsapp_clone/static/js/main.c035b7c4.chunk.js",
-    "main.js.map": "/watsapp_clone/static/js/main.c035b7c4.chunk.js.map",
+    "main.js": "/watsapp_clone/static/js/main.44514f3d.chunk.js",
+    "main.js.map": "/watsapp_clone/static/js/main.44514f3d.chunk.js.map",
     "runtime-main.js": "/watsapp_clone/static/js/runtime-main.8b76f32c.js",
     "runtime-main.js.map": "/watsapp_clone/static/js/runtime-main.8b76f32c.js.map",
-    "static/js/2.69c2ed0a.chunk.js": "/watsapp_clone/static/js/2.69c2ed0a.chunk.js",
-    "static/js/2.69c2ed0a.chunk.js.map": "/watsapp_clone/static/js/2.69c2ed0a.chunk.js.map",
+    "static/js/2.6fb6b767.chunk.js": "/watsapp_clone/static/js/2.6fb6b767.chunk.js",
+    "static/js/2.6fb6b767.chunk.js.map": "/watsapp_clone/static/js/2.6fb6b767.chunk.js.map",
     "static/js/3.8b880cf4.chunk.js": "/watsapp_clone/static/js/3.8b880cf4.chunk.js",
     "static/js/3.8b880cf4.chunk.js.map": "/watsapp_clone/static/js/3.8b880cf4.chunk.js.map",
     "index.html": "/watsapp_clone/index.html",
     "static/css/main.ef7f4128.chunk.css.map": "/watsapp_clone/static/css/main.ef7f4128.chunk.css.map",
-    "static/js/2.69c2ed0a.chunk.js.LICENSE.txt": "/watsapp_clone/static/js/2.69c2ed0a.chunk.js.LICENSE.txt",
+    "static/js/2.6fb6b767.chunk.js.LICENSE.txt": "/watsapp_clone/static/js/2.6fb6b767.chunk.js.LICENSE.txt",
     "static/media/Login.css": "/watsapp_clone/static/media/backgroundLogin.e28d1330.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8b76f32c.js",
-    "static/js/2.69c2ed0a.chunk.js",
+    "static/js/2.6fb6b767.chunk.js",
     "static/css/main.ef7f4128.chunk.css",
-    "static/js/main.c035b7c4.chunk.js"
+    "static/js/main.44514f3d.chunk.js"
   ]
 }
