@@ -1,0 +1,54 @@
+.chat-message {
+	display: flex;
+	margin: 15px 30px 15px 30px;
+
+	flex-direction: column;
+	position: relative;
+	width: fit-content;
+	max-width: 400px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	height: fit-content;
+	position: relative;
+	/* min-height: 43px;
+	min-width: 103px; */
+
+	/* background: rgb(79, 233, 79); */
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	/* border: 0.1px solid; */
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.chat-message-text {
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 0.04rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.chat-message-text p {
+	max-width: 400px;
+	word-wrap: break-word;
+}
+
+.chat-message-date {
+	font-size: 11px;
+	color: gray;
+	font-weight: normal;
+	align-self: flex-end;
+}
+
+.emoji-picker-react {
+	position: absolute !important;
+	top: -325px;
+}
+
+.img {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+}

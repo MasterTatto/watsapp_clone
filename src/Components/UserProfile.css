@@ -1,0 +1,96 @@
+.user-profile {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid lightgrey;
+	cursor: pointer;
+	position: relative;
+}
+
+.checked {
+	height: 25px;
+	width: 25px;
+	background-color: rgb(7, 173, 228);
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	position: relative;
+}
+
+.checked span {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 7.5px;
+	top: 1px;
+	/* height: 0; */
+	/* width: 0; */
+}
+
+.last_time {
+	position: absolute;
+	right: 0px;
+	font-size: 12px;
+	bottom: 0px;
+	color: gray;
+}
+.user-profile:hover {
+	background-color: lightgrey;
+}
+
+.user-image {
+	width: 45px;
+	position: relative;
+}
+
+.user-active {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background: #2caa9b;
+	border-radius: 100%;
+	left: -1px;
+	top: -3px;
+}
+
+.unread_message {
+	height: 20px;
+	width: 20px;
+	background: blue;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	position: absolute;
+	right: 10px;
+	top: 17px;
+	line-height: 0%;
+}
+
+.user-image > img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.user-info {
+	flex: 1;
+	text-align: left;
+	margin-left: 10px;
+	position: relative;
+}
+.user-name {
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+.user-lastmessage {
+	font-size: 13px;
+	margin-left: 1px;
+	margin-top: 2px;
+	color: gray;
+}

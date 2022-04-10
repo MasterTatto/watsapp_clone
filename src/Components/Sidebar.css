@@ -1,0 +1,106 @@
+.sidebar {
+	min-width: 300px;
+	width: 30%;
+	border-right: 1px solid lightgrey;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background-color: #fafafa;
+}
+
+.sidebar-header {
+	height: 50px;
+	padding: 5px 15px;
+
+	background-color: #252424;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+}
+
+.sidebar-header-img {
+	width: 42px;
+	height: 42px;
+}
+
+.sidebar-header-img > img {
+	width: 42px;
+	height: 42px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+.sidebar-header-btn {
+	display: flex;
+	/* align-items: center; */
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 26px;
+	cursor: pointer;
+	/* color: #51585c; */
+	/* border: 0.1px solid; */
+}
+
+.burger_item {
+	height: 3.5px;
+	width: 100%;
+	background: #fff;
+}
+
+.middle {
+	position: relative;
+	left: 10px;
+}
+
+.h1 {
+	background: linear-gradient(135deg, #12bcb0 20%, #fabe0e 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sidebar-header-btn > .MuiSvgIcon-root {
+	font-size: 23px;
+}
+
+.sidebar-search {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6f6f6;
+}
+
+.sidebar-search-input {
+	width: 90%;
+	display: flex;
+	align-items: center;
+	height: 30px;
+	background-color: #fff;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+
+.sidebar-search-input > .MuiSvgIcon-root {
+	font-size: 18px;
+	color: #acacac;
+	margin-left: 10px;
+}
+
+.sidebar-search-input > input {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-left: 6px;
+	margin-bottom: 2px;
+	width: 80%;
+}
+
+.sidebar-chat-list {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+}

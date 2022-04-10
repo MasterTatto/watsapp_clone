@@ -1,0 +1,82 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+	background-image: url('../assets/backgroundLogin.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.login-container {
+	width: 600px;
+	margin: auto 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	border-radius: 8px;
+	padding: 10px;
+	z-index: 100;
+}
+
+.login-logo {
+	width: 150px;
+	height: auto;
+	left: 10px;
+	position: absolute;
+	top: -10px;
+}
+
+.login-name {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.login-btn {
+	display: flex;
+	align-items: center;
+	padding: 20px 100px;
+	justify-content: center;
+	border: none;
+	outline: none;
+	background: rgba(0, 0, 0, 0);
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.04rem;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+.login-btn:hover {
+	border-color: purple;
+	color: purple;
+}
+
+.login-btn > img {
+	width: 20px;
+	margin-right: 10px;
+}
+
+.login_h2 {
+	color: #fff;
+	font-size: 64px;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.1rem;
+}
+
+.login_p {
+	max-width: 360px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	margin: 20px 0 50px 0;
+}
